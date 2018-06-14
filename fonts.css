@@ -1,0 +1,123 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+body, h1, h2, h3, p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+.color-reverse * {
+    color: black;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.title {
+    text-align: center;
+    line-height: 1.5;
+}
+.subtitle {
+    text-align: center;
+    color: #777777;
+}
+#banner1 {
+    height: 990px;
+    background: url('./assets/Background1.png');
+}
+#banner3 {
+    height: 800px;
+    background: url('./assets/Background4.png');
+}
+#banner1 .header {
+    padding: 140px 0 80px;
+}
+#banner1 .title {
+    font-size: 60px;
+}
+#banner1 .subtitle {
+    margin: auto 160px;
+    line-height: 1.5;
+}
+#createAccount-wrapper {
+    margin: 40px 0;
+    border: 1px solid white;
+    padding: 40px 60px;
+}
+.input-title {
+    text-align: center;
+    word-spacing: 5px;
+    line-height: 1.5;
+}
+.input-subtitle {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #777777;
+}
+.input-wrapper {
+    width: 100%;
+    margin-top: 40px;
+}
+.input-wrapper div {
+    display: inline-block;
+}
+.input-field {
+    width: 35%;
+    border: 1px solid white;
+    padding: 10px;
+    color: #777777;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.is-active,
+.input-field:hover {
+    color: white;
+}
+.submit-button {
+    background-color: white;
+    color: #777777;
+    border: 1px solid white;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.submit-button:hover {
+    background-color: transparent;
+    color: white;
+}
+.photo {
+    display: inline-block;
+    width: 470px;
+    height: 340px;
+    padding: 0px;
+}
+.people1 {
+    background-image: url('./assets/top_left.png');
+}
+.people2 {
+    background-image: url('./assets/top_right.png');
+}
+.people3 {
+    background-image: url('./assets/bottom_left.png');
+}
+.people4 {
+    background-image: url('./assets/bottom_right.png');
+}
+.footer {
+    height: 410px;
+    background-image: url('./assets/Background10.png');
+}
+.social-media-wrapper {
+    display: inline-block;
+}
+.icon-white {
+    color: white;
+}
+.icon-round {
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.icon-gray {
+    color: #777777;
+}
