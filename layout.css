@@ -10,16 +10,10 @@ body, h1, h2, h3, p {
 .color-reverse * {
     color: black;
 }
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-}
-.title {
-    text-align: center;
-    line-height: 1.5;
+.allcaps {
+    text-transform: uppercase;
 }
 .subtitle {
-    text-align: center;
     color: #777777;
 }
 #banner1 {
@@ -31,7 +25,13 @@ body, h1, h2, h3, p {
     background: url('./assets/Background4.png');
 }
 #banner1 .header {
-    padding: 140px 0 80px;
+    padding: 140px 160px 80px;
+}
+#banner2 .header {
+    padding: 60px 250px 30px;
+}
+#banner6 .header {
+    padding: 60px 160px 40px;
 }
 #banner1 .title {
     font-size: 60px;
@@ -40,57 +40,51 @@ body, h1, h2, h3, p {
     margin: auto 160px;
     line-height: 1.5;
 }
-#createAccount-wrapper {
-    margin: 40px 0;
-    border: 1px solid white;
-    padding: 40px 60px;
+.container {
+    max-width: 960px;
+    margin: 0 auto;
 }
-.input-title {
-    text-align: center;
-    word-spacing: 5px;
-    line-height: 1.5;
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.input-subtitle {
-    text-align: center;
-    font-size: 14px;
-    line-height: 1.5;
-    color: #777777;
-}
-.input-wrapper {
-    width: 100%;
-    margin-top: 40px;
-}
-.input-wrapper div {
+.section-wrapper,
+.section-content-wrapper {
     display: inline-block;
 }
-.input-field {
-    width: 35%;
-    border: 1px solid white;
-    padding: 10px;
-    color: #777777;
-    margin-right: 30px;
-    cursor: pointer;
+.title,
+.section-title,
+.input-title,
+.footer-title,
+.text-bold {
+    font-weight: 400;
 }
-.is-active,
-.input-field:hover {
-    color: white;
+#banner2 .section-wrapper {
+    height: 150px;
 }
-.submit-button {
-    background-color: white;
-    color: #777777;
-    border: 1px solid white;
-    padding: 10px 15px;
-    cursor: pointer;
+#banner2 .section-content-wrapper {
+    width: calc(100% - 65px);
 }
-.submit-button:hover {
-    background-color: transparent;
-    color: white;
+.align-center {
+    text-align: center;
+}
+.vertical-center {
+    align-items: center;
+}
+#banner5 .section-content-wrapper {
+    width: calc(100% - 620px);
+}
+#banner5 .image-container {
+    width: 570px;
 }
 .photo {
     display: inline-block;
     width: 470px;
     height: 340px;
     padding: 0px;
+    margin: 10px 0 10px;
 }
 .people1 {
     background-image: url('./assets/top_left.png');
@@ -104,9 +98,23 @@ body, h1, h2, h3, p {
 .people4 {
     background-image: url('./assets/bottom_right.png');
 }
+.contact-wrapper img,
+.contact-wrapper .contact-container {
+    display: inline-block;
+}
 .footer {
     height: 410px;
     background-image: url('./assets/Background10.png');
+}
+.footer .container {
+    align-items: center;
+}
+.footer-wrapper p {
+    color: #777777;
+    padding: 0 0 20px;
+}
+.footer-wrapper .footer-title {
+    color: white;
 }
 .social-media-wrapper {
     display: inline-block;

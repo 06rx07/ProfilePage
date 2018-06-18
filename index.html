@@ -5,14 +5,14 @@
         <meta charset="UTF-8">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-        <link rel="stylesheet" href="./fonts.css">
+        <link rel="stylesheet" href="./layout.css">
         <link rel="stylesheet" href="./forms.css">
         <link rel="stylesheet" href="./grids.css">
     </head>
     <body>
         <section id="banner1">
             <div class="container">
-                <div class="header">
+                <div class="header align-center">
                     <h1 class="title">Hello World</h1>
                     <p>
                         China is speeding up strategic plan, standards, traffic rules, 
@@ -21,8 +21,8 @@
                     </p>
                 </div>
                 <div class="input-wrapper">
-                    <div class="input-title">CREATE YOUR ACCOUNT</div>
-                    <div class="input-subtitle">IT IS ABSOLUTELY FREE</div>
+                    <div class="input-title allcaps">Create Your Account</div>
+                    <div class="input-subtitle allcaps">It Is Absolutely Free</div>
                     <div class="input-field-wrapper">
                         <div class="input-field is-active">
                             denis@getcraftwork.com
@@ -30,7 +30,7 @@
                         <div class="input-field">
                             Create your password
                         </div>
-                        <button class="action-button">
+                        <button class="action-button allcaps">
                             Sign Up
                         </button>
                     </div>
@@ -39,217 +39,252 @@
         </section>
         <section id="banner2" class="color-reverse">
             <div class="container">
-                <div class="header">
-                    <div class="subtitle">Boatloads of Awesome</div>
+                <div class="header align-center">
+                    <div class="subtitle text-bold allcaps">Boatloads of Awesome</div>
                     <h1 class="title">
                         Ready-made, customizable, HTML landing page sections
                     </h1>
                 </div>
-                <div class="section-wrapper">
-                    <img src="./assets/Iphone_Icon.png" />
-                    <div class="section-content-wrapper">
-                        <div class="section-title">Mobile First</div>
-                        <p class="section-content">
-                            All modulz are built mobile-first for maximum device compatibility
-                        </p>
+                <div class="flex-container">
+                    <div class="section-wrapper width-45">
+                        <div class="flex-container">
+                            <div class="image-container">
+                                <img src="./assets/Iphone_Icon.png" />
+                            </div>
+                            <div class="section-content-wrapper">
+                                <div class="section-title">Mobile First</div>
+                                <p class="section-content">
+                                    All modulz are built mobile-first for maximum device compatibility
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="section-wrapper">
-                    <img src="./assets/Check_Icon.png" />
-                    <div class="section-content-wrapper">
-                        <div class="section-title">Accessibility</div>
-                        <p class="section-content">
-                            Support for IE8, mobile and tablet devices, screenreaders and color blind
-                        </p>
+                    <div class="section-wrapper width-45">
+                        <div class="flex-container">
+                            <div class="image-container">
+                                <img src="./assets/Check_Icon.png" />
+                            </div>
+                            <div class="section-content-wrapper">
+                                <div class="section-title">Accessibility</div>
+                                <p class="section-content">
+                                    Support for IE8, mobile and tablet devices, screenreaders and color blind
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="section-wrapper">
-                    <img src="./assets/Pencil_Icon.png" />
-                    <div class="section-content-wrapper">
-                        <div class="section-title">Fluid Typography</div>
-                        <p class="section-content">
-                            On different screen sizes, fonts automagically scale with the viewport
-                        </p>
+                    <div class="section-wrapper width-45">
+                        <div class="flex-container">
+                            <div class="image-container">
+                                <img src="./assets/Pencil_Icon.png" />
+                            </div>
+                            <div class="section-content-wrapper">
+                                <div class="section-title">Fluid Typography</div>
+                                <p class="section-content">
+                                    On different screen sizes, fonts automagically scale with the viewport
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="section-wrapper">
-                    <img src="./assets/Settings_Icon.png" />
-                    <div class="section-content-wrapper">
-                        <div class="section-title">Customization</div>
-                        <p class="section-content">
-                            Make any design your own using the Style Editor. Personalize fonts, colors and layouts
-                            to create the custom look you want
-                        </p>
+                    <div class="section-wrapper width-45">
+                        <div class="flex-container">
+                            <div class="image-container">
+                                <img src="./assets/Settings_Icon.png" />
+                            </div>
+                            <div class="section-content-wrapper">
+                                <div class="section-title">Customization</div>
+                                <p class="section-content">
+                                    Make any design your own using the Style Editor. Personalize fonts, colors and layouts
+                                    to create the custom look you want
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <section id="banner3">
             <div class="container">
-                <div class="header">
+                <div class="header width-37">
                     <h1 class="title">Supportive policies for China's smart car</h1>
                     <p class="subtitle">
                         China will come up with its own smart car standards, traffic rules, laws and regulations
-                        relating to safety, according to the China Industry Innovation Alliance for the intelligent
+                        relating to safety, according to the China Industry Innovation Alliance for the intelli-gent
                         and Connected Vehicles.
                     </p>
                 </div>
+                <button class="action-button allcaps">
+                    Check out Features
+                </button>
+                <button class="action-button allcaps">
+                    Try product for Free
+                </button>
             </div>
-            <button class="action-button">
-                Check out Features
-            </button>
-            <button class="action-button">
-                Try product for Free
-            </button>
         </section>
         <section id="banner4" class="color-reverse">
             <div class="container">
-                <div class="header">
+                <div class="header align-center">
                     <h1 class="title">Try Our Awesome Products</h1>
                 </div>
-                <div class="section-wrapper">
-                    <img src="./assets/Singleton.png" />
-                    <p class="section-content">
-                        Li Jun, a China Academy of Engineering academician and also director of the alliance's experts' committee, said
-                        that China will also launch design guidance for smart cars, smart map architecture and standards for test grounds.
-                    </p>
-                </div>
-                <div class="section-wrapper">
-                    <img src="./assets/Hero.png" />
-                    <p class="section-content">
-                        Li said the smart car industry is able to enlarge the current car industry by 1 trillion yuan ($158.15 billion)
-                        and also able to boost fast development in 5G internet of cars, big datat, artificial intelligence and new-energy vehicles.
-                    </p>
-                </div>
-                <div class="section-wrapper">
-                    <img src="./assets/Portland.png" />
-                    <p class="section-content">
-                        Zhang Junyi, a partner with NIO Capital, said that the smart car is the trend for the car industry and China's auto
-                        sector will usher in a new key development stage with the improvement of ,infrastructure, ,technology, policies, and laws. 
-                    </p>
+                <div class="flex-container">
+                    <div class="section-wrapper width-27 align-center">
+                        <img src="./assets/Singleton.png" />
+                        <p class="section-content">
+                            Li Jun, a China Academy of Engi-neering academician and also director of the alliance's experts' committee, said
+                            that China will also launch design guidance for smart cars, smart map architec-ture and standards for test grounds.
+                        </p>
+                    </div>
+                    <div class="section-wrapper width-27 align-center">
+                        <img src="./assets/Hero.png" />
+                        <p class="section-content">
+                            Li said the smart car industry is able to enlarge the current car industry by 1 trillion yuan ($158.15 billion)
+                            and also able to boost fast development in 5G internet of cars, big datat, artificial intelligence and new-energy vehicles.
+                        </p>
+                    </div>
+                    <div class="section-wrapper width-27 align-center">
+                        <img src="./assets/Portland.png" />
+                        <p class="section-content">
+                            Zhang Junyi, a partner with NIO Capital, said that the smart car is the trend for the car industry and China's auto
+                            sector will usher in a new key development stage with the improvement of ,infrastructure, ,technology, policies, and laws. 
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
         <section id="banner5" class="color-reverse">
             <div class="container">
                 <div class="section-wrapper">
-                    <img src="./assets/Photo1.png" />
-                    <div class="section-content-wrapper">
-                        <div class="section-title">Learn How to Improve Your Personal Business</div>
-                        <p class="section-content">
-                            Li Jun, a China Academy of Engineering academician and also director of the alliance's experts' committee,
-                            said that China will also launch design guidance for smart cars, smart map architecture and standards for test grounds.
-                        </p>
+                    <div class="flex-container">
+                        <img src="./assets/Photo1.png" />
+                        <div class="section-content-wrapper">
+                            <div class="section-title">Learn How to Improve Your Personal Business</div>
+                            <p class="section-content">
+                                Li Jun, a China Academy of Engineering academician and also director of the alliance's experts' committee,
+                                said that China will also launch design guidance for smart cars, smart map architecture and standards for test grounds.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div class="section-wrapper">
-                    <div class="section-content-wrapper">
-                        <div class="section-title">Choose Between Two Beautifully Designed Color Schemes.</div>
-                        <p class="section-content">
-                            China will come up with its own smart car standards, traffic rules, laws and regulations relating to safety,
-                            according to the China Industry Innovation Alliance for the Intelligent and Connect Vehicles.
-                        </p>
+                    <div class="flex-container">
+                        <div class="section-content-wrapper">
+                            <div class="section-title">Choose Between Two Beautifully Designed Color Schemes.</div>
+                            <p class="section-content">
+                                China will come up with its own smart car standards, traffic rules, laws and reg-ulations relating to safety,
+                                according to the China Industry Innovation Alliance for the Intelligent and Connect Vehicles.
+                            </p>
+                        </div>
+                        <img src="./assets/Photo2.png" />
                     </div>
-                    <img src="./assets/Photo2.png" />
                 </div>
             </div>
         </section>
         <section id="banner6" class="color-reverse">
             <div class="container">
-                <div class="header">
+                <div class="header align-center">
                     <h1 class="title">Our Awesome Crew</h1>
                     <p>
                         Our unique online teaching style makes learning easy for everyone. Whether you are trying
                         to land a new job, brush up on your skills.
                     </p>
                 </div>
-                <div class="section-wrapper photo people1">
-                    <div>Ethan Dutton</div>
-                    <p>Senior Visual Designer</p>
-                    <div class="social-media-wrapper">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-instagram"></i>
+                <div class="flex-container">
+                    <div class="section-wrapper photo people1">
+                        <div class="section-title">Ethan Dutton</div>
+                        <p class="allcaps">Senior Visual Designer</p>
+                        <div class="social-media-wrapper">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                        </div>
                     </div>
+                    <div class="section-wrapper photo people2"></div>
+                    <div class="section-wrapper photo people3"></div>
+                    <div class="section-wrapper photo people4"></div>
                 </div>
-                <div class="section-wrapper photo people2"></div>
-                <div class="section-wrapper photo people3"></div>
-                <div class="section-wrapper photo people4"></div>
             </div>
         </section>
         <section id="banner7" class="color-reverse">
             <div class="container">
-                <div class="input-wrapper">
-                    <p>Fell free to Write Us</p>
-                    <div class="input-field-wrapper">
-                        <div class="input-field">
-                            E-mail
+                <div class="flex-container">
+                    <div class="input-wrapper width-45">
+                        <p class="input-title allcaps">Fell free to Write Us</p>
+                        <div class="input-field-wrapper">
+                            <div class="input-field">
+                                E-mail
+                            </div>
+                            <div class="input-field">
+                                Subject
+                            </div>
+                            <div class="input-field">
+                                Message
+                            </div>
+                            <button class="action-button allcaps">
+                                Send
+                            </button>
                         </div>
-                        <div class="input-field">
-                            Subject
-                        </div>
-                        <div class="input-field">
-                            Message
-                        </div>
-                        <button class="action-button">
-                            Send
-                        </button>
                     </div>
-                </div>
-                <div class="header">
-                    <h1 class="title">Contacts</h1>
-                    <p>
-                        Make any design your own using the Style Editor. Personalize fonts, colors, and
-                        layouts to create the custom look you want.
-                    </p>
-                </div>
-                <div class="contact-wrapper">
-                    <img src="./assets/Map_Icon.png" />
-                    <p>360 King Street Feastrvale Trevose, PA 19057</p>
-                </div>
-                <div class="contact-wrapper">
-                    <img src="./assets/Phone_Icon.png" />
-                    <p>(755) 564-84-12</p>
-                </div>
-                <div class="contact-wrapper">
-                    <img src="./assets/Mail_Icon.png" />
-                    <p>youname@mail.com</p>
+                    <div class="width-39">
+                        <div class="header">
+                            <h1 class="title">Contacts</h1>
+                            <p>
+                                Make any design your own using the Style Editor. Personalize fonts, colors, and
+                                layouts to create the custom look you want.
+                            </p>
+                        </div>
+                        <div class="contact-wrapper">
+                            <img src="./assets/Map_Icon.png" />
+                            <div class="contact-container">
+                                <p class="text-bold">360 King Street</p>
+                                <p class="text-bold">Feastrvale Trevose, PA 19057</p>
+                            </div>
+                        </div>
+                        <div class="contact-wrapper">
+                            <img src="./assets/Phone_Icon.png" />
+                            <p class="contact-container text-bold">(755) 564-84-12</p>
+                        </div>
+                        <div class="contact-wrapper">
+                            <img src="./assets/Mail_Icon.png" />
+                            <p class="contact-container text-bold">youname@mail.com</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="footer">
             <div class="container">
-                <div class="footer-wrapper">
-                    <p>Learn More</p>
-                    <p>How it works?</p>
-                    <p>Meeting tools</p>
-                    <p>Live streaming</p>
-                    <p>Contact method</p>
-                </div>
-                <div class="footer-wrapper">
-                    <p>About Us</p>
-                    <p>About us</p>
-                    <p>Features</p>
-                    <p>Privacy police</p>
-                    <p>Terms & Conditions</p>
-                </div>
-                <div class="footer-wrapper">
-                    <p>Support</p>
-                    <p>F.A.Q.</p>
-                    <p>Contact us</p>
-                    <p>Live chat</p>
-                    <p>Phone call</p>
-                </div>
-                <div class="footer-wrapper">
-                    <p>Enjoy your Life</p>
-                    <p>Great web UI kit for designers, freelancers or business.</p>
-                    <div class="social-media-wrapper">
-                        <i class="fab fa-twitter icon-gray"></i>
-                        <i class="fab fa-facebook-f icon-gray"></i>
-                        <i class="fab fa-google-plus-g icon-gray"></i>
-                        <i class="fab fa-tumblr icon-gray"></i>
-                        <i class="fab fa-pinterest-p icon-gray"></i>
-                        <i class="fab fa-linkedin-in icon-gray"></i>
+                <div class="flex-container">
+                    <div class="footer-wrapper width-16">
+                        <p class="footer-title allcaps">Learn More</p>
+                        <p>How it works?</p>
+                        <p>Meeting tools</p>
+                        <p>Live streaming</p>
+                        <p>Contact method</p>
+                    </div>
+                    <div class="footer-wrapper width-16">
+                        <p class="footer-title allcaps">About Us</p>
+                        <p>About us</p>
+                        <p>Features</p>
+                        <p>Privacy police</p>
+                        <p>Terms & Conditions</p>
+                    </div>
+                    <div class="footer-wrapper width-16">
+                        <p class="footer-title allcaps">Support</p>
+                        <p>F.A.Q.</p>
+                        <p>Contact us</p>
+                        <p>Live chat</p>
+                        <p>Phone call</p>
+                    </div>
+                    <div class="footer-wrapper width-27">
+                        <p class="footer-title allcaps">Enjoy your Life</p>
+                        <p>Great web UI kit for designers, freelancers or business.</p>
+                        <div class="social-media-wrapper">
+                            <i class="fab fa-twitter icon-gray"></i>
+                            <i class="fab fa-facebook-f icon-gray"></i>
+                            <i class="fab fa-google-plus-g icon-gray"></i>
+                            <i class="fab fa-tumblr icon-gray"></i>
+                            <i class="fab fa-pinterest-p icon-gray"></i>
+                            <i class="fab fa-linkedin-in icon-gray"></i>
+                        </div>
                     </div>
                 </div>
             </div>
