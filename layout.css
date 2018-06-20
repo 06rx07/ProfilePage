@@ -177,6 +177,7 @@ body, h1, h2, h3, p {
 .footer {
     height: 410px;
     background-image: url('./assets/Background10.png');
+    color: #777777;
 }
 .footer .container {
     padding: 59px 0;
