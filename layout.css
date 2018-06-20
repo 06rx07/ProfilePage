@@ -1,6 +1,6 @@
 body {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 body, h1, h2, h3, p {
     color: white;
@@ -13,42 +13,35 @@ body, h1, h2, h3, p {
 .allcaps {
     text-transform: uppercase;
 }
+.top-border {
+    border-top: 1px solid #ddd;
+}
 .subtitle {
     color: #777777;
-}
-#banner1 {
-    height: 990px;
-    background: url('./assets/Background1.png');
-}
-#banner3 {
-    height: 800px;
-    background: url('./assets/Background4.png');
-}
-#banner1 .header {
-    padding: 140px 160px 80px;
-}
-#banner2 .header {
-    padding: 60px 250px 30px;
-}
-#banner6 .header {
-    padding: 60px 160px 40px;
-}
-#banner1 .title {
-    font-size: 60px;
-}
-#banner1 .subtitle {
-    margin: auto 160px;
-    line-height: 1.5;
 }
 .container {
     max-width: 960px;
     margin: 0 auto;
+}
+.color-reverse .container {
+    padding: 60px 0;
 }
 .flex-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
+}
+.grayDark-layer {
+    background-color: rgba(26, 33, 41, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.grayDark-layer * {
+    color: white;
 }
 .section-wrapper,
 .section-content-wrapper {
@@ -61,23 +54,79 @@ body, h1, h2, h3, p {
 .text-bold {
     font-weight: 400;
 }
-#banner2 .section-wrapper {
-    height: 150px;
-}
-#banner2 .section-content-wrapper {
-    width: calc(100% - 65px);
-}
 .align-center {
     text-align: center;
 }
 .vertical-center {
     align-items: center;
 }
+#banner1 {
+    height: 990px;
+    background: url('./assets/Background1.png');
+}
+#banner3 {
+    height: 800px;
+    background: url('./assets/Background4.png');
+    position: relative;
+}
+#banner1 .header {
+    padding: 140px 160px 80px;
+}
+#banner2 .header {
+    padding: 0 250px 30px;
+}
+#banner3 .header .title {
+    padding-right: 120px;
+}
+#banner3 .action-btn {
+    width: 20%;
+}
+#banner6 .header {
+    padding: 0 160px 30px;
+}
+#banner1 .title {
+    font-size: 60px;
+}
+#banner1 .subtitle {
+    margin: auto 160px;
+    line-height: 1.5;
+}
+#banner2 .section-wrapper {
+    height: 120px;
+}
+#banner2 .section-content-wrapper {
+    width: calc(100% - 65px);
+}
+#banner3 .container {
+    padding: 250px 0;
+}
+#banner3 #ipad {
+    position: absolute;
+    right: 0;
+    top: 100px;
+    width: 645px;
+    height: 600px;
+    background-image: url("./assets/IPad.png");
+}
+#banner3 #course-content {
+    position: absolute;
+    right: 0;
+    top: 129px;
+    width: 585px;
+    height: 542px;
+    background-image: url("./assets/Screen.png");
+}
 #banner5 .section-content-wrapper {
     width: calc(100% - 620px);
 }
-#banner5 .image-container {
+#banner5 .img-container {
     width: 570px;
+}
+#banner5 .section-wrapper {
+    height: 420px;
+}
+#banner6 .people1 {
+    position: relative;
 }
 .photo {
     display: inline-block;
@@ -86,8 +135,12 @@ body, h1, h2, h3, p {
     padding: 0px;
     margin: 10px 0 10px;
 }
+.photo-container {
+    margin: 100px 0;
+}
 .people1 {
     background-image: url('./assets/top_left.png');
+    background-color: #000000;
 }
 .people2 {
     background-image: url('./assets/top_right.png');
@@ -98,16 +151,28 @@ body, h1, h2, h3, p {
 .people4 {
     background-image: url('./assets/bottom_right.png');
 }
+.contact-wrapper {
+    height: 50px;
+}
+.contact-wrapper.flex-container {
+    justify-content: flex-start;
+}
 .contact-wrapper img,
 .contact-wrapper .contact-container {
     display: inline-block;
+}
+.contact-wrapper img {
+    margin-right: 20px;
+}
+.contact-container p {
+    margin: 0;
 }
 .footer {
     height: 410px;
     background-image: url('./assets/Background10.png');
 }
 .footer .container {
-    align-items: center;
+    padding: 59px 0;
 }
 .footer-wrapper p {
     color: #777777;
@@ -116,16 +181,22 @@ body, h1, h2, h3, p {
 .footer-wrapper .footer-title {
     color: white;
 }
-.social-media-wrapper {
+.social-media-wrapper,
+.social-media-container {
     display: inline-block;
 }
-.icon-white {
-    color: white;
+.social-media-wrapper i,
+.social-media-container {
+    margin-right: 20px;
 }
-.icon-round {
+.social-media-container {
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 1px solid white;
 }
-.icon-gray {
-    color: #777777;
+.social-media-container i {
+    margin: 0;
+    font-size: 20px;
+    line-height: 50px;
 }

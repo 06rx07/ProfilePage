@@ -1,0 +1,67 @@
+input,
+textarea {
+    padding: 8px 12px;
+    border: 1px solid #777;
+    box-sizing: border-box;
+}
+input {
+    height: 34px;
+}
+input.is-active::-webkit-input-placeholder {
+    color: white;
+}
+textarea {
+    height: 100px;
+}
+.form-title {
+    font-weight: 400;
+}
+.form-subtitle {
+    color: #777;
+    font-size: .75em;
+}
+.btn-group button {
+    margin-top: 30px;
+}
+.btn-group button {
+    margin-right: 10px;
+}
+.action-btn {
+    color: white;
+    background: black;
+    padding: 10px 0;
+    box-shadow: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.action-btn--reverse {
+    color: black;
+    background: white;
+}
+.action-btn--transparent {
+    background: transparent;
+}
+.horizontal-form,
+.vertical-form {
+    border: 1px solid #777;
+}
+.horizontal-form-group {
+    padding: 5%;
+}
+.horizontal-form-group .form-input-wrapper{
+    margin-top: 40px;
+}
+.horizontal-form-group input {
+    background: transparent;
+}
+.vertical-form * {
+    display: block;
+}
+.vertical-form-group {
+    padding: 10%;
+    width: 80%;
+}
+.vertical-form-group * {
+    margin: 20px 0;
+    width: 100%;
+}
