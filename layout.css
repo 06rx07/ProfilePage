@@ -128,6 +128,13 @@ body, h1, h2, h3, p {
 #banner6 .people1 {
     position: relative;
 }
+#banner6 .people1 .grayDark-layer {
+    visibility: hidden;
+}
+#banner6 .people1:hover .grayDark-layer {
+    cursor: pointer;
+    visibility: visible;
+}
 .photo {
     display: inline-block;
     width: 470px;
